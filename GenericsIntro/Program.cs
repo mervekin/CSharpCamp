@@ -10,7 +10,8 @@ namespace GenericsIntro
             MyList<string> isimler = new MyList<string>();
             isimler.Add("merve");
 
-
+            MyDictionary<int, string> müsteriler = new MyDictionary<int, string>();
+            müsteriler.Add(12, "Leyla");
         }
     }
 }
